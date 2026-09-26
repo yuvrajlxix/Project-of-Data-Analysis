@@ -1,0 +1,69 @@
+E-COMMERCE SALES ANALYTICS
+BUSINESS INSIGHTS
+
+1. SALES PERFORMANCE
+
+* Total Revenue: $16802791.40(16.80M)
+* Total Cost: $7267345.19
+* Total Profit: $9535446.21
+* Profit Margin: 0.57%
+* Total Quantity Sold: 76908 units
+
+Key Insight:
+
+* This is business giving the profit margin best nothing else.
+
+2. PRODUCT & CATEGORY INSIGHTS
+
+* Highest Revenue Category: Computers ($6.13M)
+* Highest Quantity Category: Computers (16143 units)
+* Highest Revenue Subcategory: Desktops ($3.7M)
+* Top Product by Revenue: Adventures desktops ($252K)
+* Top Product by Quantity: Adventures desktops(261 units)
+
+Key Insight:
+
+* Computers category with desktops is giving most of the revenue and quantity and giving the best profits.
+
+3. CUSTOMER INSIGHTS
+
+* Total Customers: 14495
+* Customers with more than 10 units purchased: 1000
+* Customers with more than 25 units purchased: 471
+
+Key Insight:
+
+* Increasing the quantity threshold from 10 to 25 resulted in a more selective customer segment, with 471 customers exceeding 25 units.
+
+4. STORE & GEOGRAPHY INSIGHTS
+
+* Highest Revenue Country: USA ($9.02M)
+* Lowest Revenue Country: France ($456.50k)
+* Top Store by Revenue: Store Key 66 USA 
+* Number of Stores Analyzed: 67
+
+Key Insight:
+
+* USA country has the most stores and it is actually giving the highest quantity sold and also revenue and the highest revenue is also from the USA.
+
+5. DATA QUALITY & LIMITATIONS
+
+* Customer dataset contained 14,495 records.
+* Product dataset contained 2,359 records after data cleaning.
+* Sales dataset contained 24,344 records.
+* Store dataset contained 67 records.
+* Exchange-rate dataset contained 11,215 records.
+* Delivery Date was missing for 19,166 sales records, while 5,178 records contained a delivery date.
+* Customer Continent was removed because the dataset contained only Australia, providing no useful variation for analysis.
+* Product prices and costs required cleaning to remove "$" symbols before database import.
+
+6. KEY BUSINESS TAKEAWAYS
+
+* USA is giving the most of the revenue and it is actually good.
+* but we should also focus on the other countries because the 65 to 70 percent revenue is comes form the USA and rest is come from the whole other, that's why.
+
+7. ANALYTICAL NOTES
+
+* ProductKey 422, "Adventure Works Desktop PC2.33 XD233 Black", recorded the highest total quantity sold at 261 units.
+* A quantity threshold of more than 25 units identified 471 customers.
+* SQL and Power BI were used together to validate and visualize the analysis.
